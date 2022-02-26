@@ -1,0 +1,35 @@
+.login-box h2{
+    margin: 0 0 30px;/*DÁ UMA MARGEM EM BAIXO E EM CIMA*/
+    padding: 0; /*RETIRA O ESPAÇAMENTO INTERNO*/
+    color: #fff; /*COLOCA O TEXTO NA COR BRANCA*/
+    text-align: center;/*VAI ALINHAR O TEXTO AO CENTRO DA CAIXA*/
+}
+
+.login-box .user-box{
+    position: relative;
+}
+
+/*ESTILIZAÇÃO DO INPUT*/
+.login-box .user-box input{
+    width: 100%;/*INPUT 100% DA CAIXA*/
+    padding: 10px 0; /*COLOCA UM MARGEM INTERNA NO INPUT EM CIMA E EM BAIXO E REMOVE NOS LADOS*/
+    font-size: 16px;/*TAMANHO DA FONTE*/
+    color: #fff;/*COR BRANCA - TALVEZ DE PARA REMOVER NO FINAL*/
+    margin-bottom: 30px;/*DÁ UMA MARGEM NA PARTE DE BAIXO DO INPUT*/
+    border: none;/*NÃO HAVERÁ BORDA*/
+    border-bottom: 1px solid #fff;/*COLOCA UMA LINHA EM BAIXO DO INPUT*/
+    outline: none;/*REMOVE A SELEÇÃO DO INPUT*/
+    background: transparent; /*DEIXA O INPUT TRANSPARENTE*/
+}
+
+/*ESTILIZAÇÃO DO NOME DO INPUT*/
+.login-box .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+} 
